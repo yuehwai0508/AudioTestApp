@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BandTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginHorizontal">8dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_gravity">top</item>
+        <item name="android:layout_marginLeft">0dp</item>
+    </style>
+    <style name="SeekBarFrame">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:rotation">-90</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginHorizontal">0dp</item>
+    </style>
+    <style name="SeekBarStyle">
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxHeight">6dp</item>
+        <item name="android:layout_marginVertical">18dp</item>
+        <item name="android:splitTrack">false</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:tickMark">@drawable/seekbar_tickmark</item>
+        <item name="android:thumb">@drawable/seekbar_thumb</item>
+        <item name="android:progressDrawable">@drawable/seekbar_custom</item>
+    </style>
+    <style name="ButtonStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginHorizontal">10dp</item>
+        <item name="android:background">@color/black</item>
+
+
+    </style>
+</resources>

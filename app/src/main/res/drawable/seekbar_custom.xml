@@ -1,0 +1,33 @@
+<!-- res/drawable/seekbar_custom.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape>
+            <corners android:radius="5dp"/>
+            <solid android:color="#E1E1E1" />
+            <stroke android:width="0.1dp" android:color="#71999999"/>
+        </shape>
+    </item>
+    <item android:id="@android:id/secondaryProgress">
+        <clip>
+            <shape android:shape="rectangle">
+                <corners android:radius="3dp"/>
+                <gradient android:centerColor="@color/black"/>
+                <solid android:color="#2196F3" android:width="4dp"/>
+                <size android:width="4dp" /> <!-- Set the height to make it slimmer -->
+            </shape>
+        </clip>
+    </item>
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <corners android:radius="5dp"/>
+                <gradient
+                    android:startColor="#EC282828"
+                    android:endColor="#FFEEEEEE"/>
+                <stroke
+                    android:width="0.1dp"
+                    android:color="#71999999"/>
+            </shape>
+        </clip>
+    </item>
+</layer-list>
